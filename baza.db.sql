@@ -16,9 +16,10 @@ CREATE TABLE IF NOT EXISTS `drzava` (
 	`id`	INTEGER,
 	`naziv`	TEXT,
 	`glavni_grad`	INTEGER,
+	`najveci_grad`	INTEGER,
 	PRIMARY KEY(`id`)
 );
-INSERT INTO `drzava` VALUES (1,'Francuska',1);
-INSERT INTO `drzava` VALUES (2,'Velika Britanija',2);
-INSERT INTO `drzava` VALUES (3,'Austrija',3);
+INSERT INTO `drzava` VALUES (1,'Francuska',1,4);
+INSERT INTO `drzava` VALUES (2,'Velika Britanija',2,6);
+INSERT INTO `drzava` VALUES (3,'Austrija',3,7);
 COMMIT;
